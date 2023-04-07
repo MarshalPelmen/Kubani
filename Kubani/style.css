@@ -1,0 +1,49 @@
+.main-box{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-field{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.game-field>img{
+    width: 80px;
+    height: 80px;
+}
+
+#dice-element{
+    margin-top: 150px;
+    display: block;
+}
+
+.player{
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(170, 170, 235);
+}
+
+.score{
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+
+.total-score-0,
+.total-score-1{
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.roll-button{
+    margin-bottom: 10px;
+}
