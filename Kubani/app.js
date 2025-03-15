@@ -22,7 +22,7 @@ function switchPlayer(){
 rollButton.addEventListener('click', function(){  
     if(isPlaying){
         const randomValue = Math.trunc((Math.random() * 6) + 1);
-        diceElement.src = `/img/${randomValue}.jpg`;
+        diceElement.src = `../img/${randomValue}.jpg`;
 
         if(randomValue !== 1){
             points += randomValue;
